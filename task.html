@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changenum()"> Click for ADDITION</button>
+    <button onclick="changenum2()"> Click for Subtraction</button>
+    <button onclick="changenum3()"> Click for multiplication</button>
+    <button onclick="changenum4()">Click for DIVISON</button>
+    
+    <button onclick="changeimg()">preview</button>
+    <button onclick="changeimg2()">next</button>
+    <img id="image" src="959442e7ce67c27b19ade3667cfeba2d.jpeg" alt="">
+</body>
+</html> 
+<script>
+    function changenum(){
+    var num1=  Number(prompt("ENTER YOUR FIRST NUMBER"));
+    var num2=  Number(prompt("ENTER YOUR SECOND NUMBER"));
+    alert( num1 + num2); }
+    function changenum2(){
+    var num1=  Number(prompt("ENTER YOUR FIRST NUMBER"));
+    var num2=  Number(prompt("ENTER YOUR SECOND NUMBER"));
+    alert( num1 - num2); }
+    function changenum3(){
+    var num1=  Number(prompt("ENTER YOUR FIRST NUMBER"));
+    var num2=  Number(prompt("ENTER YOUR SECOND NUMBER"));
+    alert( num1 * num2); }
+    function changenum4(){
+    var num1=  Number(prompt("ENTER YOUR FIRST NUMBER"));
+    var num2=  Number(prompt("ENTER YOUR SECOND NUMBER"));
+    alert( num1 / num2); }
+    function changeimg(){
+    document.getElementById("image").src="f5c254c0c7f4055ab0ac1462c1fad578.jpeg"
+    }
+    function changeimg2(){
+    document.getElementById("image").src="fa02807687864278fa97bd27efe29549.jpeg"
+    }
+</script>
+    
